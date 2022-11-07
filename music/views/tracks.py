@@ -23,7 +23,7 @@ class AllTrackList(ListModelMixin, CreateModelMixin, GenericAPIView):
 
 class AllTrackInAlbumList(ListModelMixin, CreateModelMixin, GenericAPIView):
     """
-    Представление для получения списка всех песен.
+    Представление для получения списка песен в альбомах.
     """
     serializer_class = TrackInAlbumSerializers
 

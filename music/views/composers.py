@@ -6,7 +6,7 @@ from ..serializers import ComposerSerializers
 
 class AllComposerList(ListModelMixin, CreateModelMixin, GenericAPIView):
     """
-    Представление для получения списка всех песен.
+    Представление для получения списка всех исполнителей песен.
     """
     serializer_class = ComposerSerializers
 
@@ -18,5 +18,4 @@ class AllComposerList(ListModelMixin, CreateModelMixin, GenericAPIView):
         return self.list(request)
 
     def post(self, request):
-        print(request.data)
         return self.create(request)

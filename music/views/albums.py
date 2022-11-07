@@ -6,7 +6,7 @@ from ..serializers import AlbumSerializers
 
 class AllAlbumList(ListModelMixin, CreateModelMixin, GenericAPIView):
     """
-    Представление для получения списка всех песен.
+    Представление для получения списка всех альбомов.
     """
     serializer_class = AlbumSerializers
 

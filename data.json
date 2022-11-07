@@ -1,0 +1,961 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-11-07T15:29:33.592Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Иванушки",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-11-07T15:29:36.765Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Конечно он",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-11-07T15:29:56.075Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Ласковый май",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-11-07T15:29:59.352Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Белые розы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-11-07T15:30:14.065Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Тучи",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-11-07T15:30:20.181Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Этажи",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-11-07T15:30:23.622Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Вселенная",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-11-07T15:30:27.417Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Малина",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-11-07T15:30:34.795Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Белые розы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-11-07T15:30:37.919Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Лето",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-11-07T15:30:44.524Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Ну, что же ты",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-11-07T15:30:48.399Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Зимняя ночь",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-11-07T15:31:00.265Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "TrackInAlbum object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-11-07T15:31:08.239Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "TrackInAlbum object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-11-07T15:31:14.453Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "TrackInAlbum object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-11-07T15:31:26.906Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "TrackInAlbum object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-11-07T15:31:37.262Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "TrackInAlbum object (5)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-11-07T15:31:42.395Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "TrackInAlbum object (6)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-11-07T15:31:48.538Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "TrackInAlbum object (7)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-11-07T15:31:54.364Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "TrackInAlbum object (8)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-11-07T15:32:31.422Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Сборник хитов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-11-07T15:32:43.307Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "TrackInAlbum object (9)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-11-07T15:32:59.328Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "TrackInAlbum object (10)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add сomposer",
+      "content_type": 7,
+      "codename": "add_composer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change сomposer",
+      "content_type": 7,
+      "codename": "change_composer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete сomposer",
+      "content_type": 7,
+      "codename": "delete_composer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view сomposer",
+      "content_type": 7,
+      "codename": "view_composer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add track",
+      "content_type": 8,
+      "codename": "add_track"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change track",
+      "content_type": 8,
+      "codename": "change_track"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete track",
+      "content_type": 8,
+      "codename": "delete_track"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view track",
+      "content_type": 8,
+      "codename": "view_track"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add album",
+      "content_type": 9,
+      "codename": "add_album"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change album",
+      "content_type": 9,
+      "codename": "change_album"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete album",
+      "content_type": 9,
+      "codename": "delete_album"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view album",
+      "content_type": 9,
+      "codename": "view_album"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add track in album",
+      "content_type": 10,
+      "codename": "add_trackinalbum"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change track in album",
+      "content_type": 10,
+      "codename": "change_trackinalbum"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete track in album",
+      "content_type": 10,
+      "codename": "delete_trackinalbum"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view track in album",
+      "content_type": 10,
+      "codename": "view_trackinalbum"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$QscSziq6xfoY6ZqIC4eXic$OuYO9xykATUNvaD7nYsZbl/8HrS8vR/T0CPogEQ2vPA=",
+      "last_login": "2022-11-07T15:28:17.257Z",
+      "is_superuser": true,
+      "username": "test",
+      "first_name": "",
+      "last_name": "",
+      "email": "test@test.test",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-07T15:25:46.393Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "music",
+      "model": "composer"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "music",
+      "model": "track"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "music",
+      "model": "album"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "music",
+      "model": "trackinalbum"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "q1muxig525ux4tespbwsgrtwpqamkuo0",
+    "fields": {
+      "session_data": ".eJxVjDkOwjAUBe_iGlnxGpuSnjNYf7FxADlSnFSIu0OkFNC-mXkvkWBba9p6XtLE4iyUOP1uCPTIbQd8h3abJc1tXSaUuyIP2uV15vy8HO7fQYVev7VV3hlEowcNWVMhZwZiJoKoGL0LwBYhK1BlLDSydzo4CxEpGDLRi_cH_2o4rg:1os42r:VuWV2XPO2wAiXS3V6-yqGUpoqRQ-PW8Ct2HAPc4pP-Y",
+      "expire_date": "2022-11-21T15:28:17.270Z"
+    }
+  },
+  {
+    "model": "music.composer",
+    "pk": 1,
+    "fields": {
+      "title": "Иванушки"
+    }
+  },
+  {
+    "model": "music.composer",
+    "pk": 2,
+    "fields": {
+      "title": "Ласковый май"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 1,
+    "fields": {
+      "title": "Конечно он",
+      "year": 1996,
+      "composer": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 2,
+    "fields": {
+      "title": "Белые розы",
+      "year": 1988,
+      "composer": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 3,
+    "fields": {
+      "title": "Сборник хитов",
+      "year": 2022,
+      "composer": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 1,
+    "fields": {
+      "title": "Тучи"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 2,
+    "fields": {
+      "title": "Этажи"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 3,
+    "fields": {
+      "title": "Вселенная"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 4,
+    "fields": {
+      "title": "Малина"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 5,
+    "fields": {
+      "title": "Белые розы"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 6,
+    "fields": {
+      "title": "Лето"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 7,
+    "fields": {
+      "title": "Ну, что же ты"
+    }
+  },
+  {
+    "model": "music.track",
+    "pk": 8,
+    "fields": {
+      "title": "Зимняя ночь"
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 1,
+    "fields": {
+      "track": 1,
+      "album": 1,
+      "number": 1
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 2,
+    "fields": {
+      "track": 2,
+      "album": 1,
+      "number": 2
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 3,
+    "fields": {
+      "track": 3,
+      "album": 1,
+      "number": 3
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 4,
+    "fields": {
+      "track": 4,
+      "album": 1,
+      "number": 4
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 5,
+    "fields": {
+      "track": 5,
+      "album": 2,
+      "number": 1
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 6,
+    "fields": {
+      "track": 6,
+      "album": 2,
+      "number": 2
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 7,
+    "fields": {
+      "track": 7,
+      "album": 2,
+      "number": 3
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 8,
+    "fields": {
+      "track": 8,
+      "album": 2,
+      "number": 4
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 9,
+    "fields": {
+      "track": 1,
+      "album": 3,
+      "number": 1
+    }
+  },
+  {
+    "model": "music.trackinalbum",
+    "pk": 10,
+    "fields": {
+      "track": 5,
+      "album": 3,
+      "number": 2
+    }
+  }
+]
