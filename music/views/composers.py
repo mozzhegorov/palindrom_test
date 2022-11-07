@@ -1,3 +1,5 @@
+from typing import List
+
 from rest_framework.mixins import ListModelMixin, CreateModelMixin
 from rest_framework.generics import GenericAPIView
 from ..models.composer import Composer
@@ -11,7 +13,7 @@ class AllComposerList(ListModelMixin, CreateModelMixin, GenericAPIView):
     serializer_class = ComposerSerializers
 
     def get_queryset(self):
-        queryset = Composer.objects.all()
+        queryset: List[Composer] = Composer.objects.all()
         return queryset
 
     def get(self, request):

@@ -1,3 +1,5 @@
+from typing import List
+
 from rest_framework.mixins import ListModelMixin, CreateModelMixin
 from rest_framework.generics import GenericAPIView
 from ..models.album import Album
@@ -11,7 +13,7 @@ class AllAlbumList(ListModelMixin, CreateModelMixin, GenericAPIView):
     serializer_class = AlbumSerializers
 
     def get_queryset(self):
-        queryset = Album.objects.all()
+        queryset: List[Album] = Album.objects.all()
         return queryset
 
     def get(self, request):

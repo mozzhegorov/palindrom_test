@@ -12,18 +12,19 @@ class ComposerSerializers(serializers.ModelSerializer):
 
 
 class TrackSerializers(serializers.ModelSerializer):
+    
     def create(self, validated_data):
         instance, _ = Track.objects.get_or_create(**validated_data)
         return instance
 
     class Meta:
         model = Track
-        fields = [
+        fields = (
             "title",
-        ]
+        )
         extra_kwargs = {
-            'id': {'read_only': False},
-            'title': {'validators': []},
+            "id": {"read_only": False},
+            "title": {"validators": []},
         }
 
 
@@ -35,9 +36,9 @@ class AlbumTitleSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Album
-        fields = [
+        fields = (
             "title",
-        ]
+        )
 
 
 class TrackInAlbumSerializers(serializers.ModelSerializer):
@@ -46,30 +47,37 @@ class TrackInAlbumSerializers(serializers.ModelSerializer):
 
     class Meta:
         model = TrackInAlbum
-        fields = [
+        fields = (
             "track",
             "album",
             "number",
-        ]
+        )
 
     def create(self, validated_data):
-        track = Track.objects.get_or_create(title=validated_data['track']['title'])
-        album = Album.objects.get_or_create(title=validated_data['album']['title'])
-        validated_data["track"] = track[0]
-        validated_data["album"] = album[0]
+        track, _ = Track.objects.get_or_create(title=validated_data["track"]["title"])
+        album, _ = Album.objects.get_or_create(title=validated_data["album"]["title"])
+        validated_data["track"]: Track = track
+        validated_data["album"]: Album = album
         try:
             instance = TrackInAlbum.objects.create(**validated_data)
         except IntegrityError:
-            error_msg = {'error': 'IntegrityError message, '
-                                  'maybe this number in album already exists'}
+            error_msg = {"error": "IntegrityError message, "
+                                  "maybe this number in album already exists"}
             raise serializers.ValidationError(error_msg)
         return instance
 
 
 class AlbumSerializers(serializers.ModelSerializer):
-    tracks = TrackInAlbumSerializers(source='albums', read_only=True, many=True)
-    composer = ComposerSerializers(read_only=True, many=True)
+    tracks = TrackInAlbumSerializers(
+        source="albums", 
+        read_only=True, 
+        many=True,
+    )
+    composer = ComposerSerializers(
+        read_only=True, 
+        many=True,
+    )
 
     class Meta:
         model = Album
-        fields = '__all__'
+        fields = "__all__"

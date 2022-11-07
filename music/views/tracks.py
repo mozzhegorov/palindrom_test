@@ -1,3 +1,5 @@
+from typing import List
+
 from rest_framework.mixins import ListModelMixin, CreateModelMixin
 from rest_framework.generics import GenericAPIView
 from ..models.track import Track, TrackInAlbum
@@ -11,7 +13,7 @@ class AllTrackList(ListModelMixin, CreateModelMixin, GenericAPIView):
     serializer_class = TrackSerializers
 
     def get_queryset(self):
-        queryset = Track.objects.all()
+        queryset: List[Track] = Track.objects.all()
         return queryset
 
     def get(self, request):
@@ -28,7 +30,7 @@ class AllTrackInAlbumList(ListModelMixin, CreateModelMixin, GenericAPIView):
     serializer_class = TrackInAlbumSerializers
 
     def get_queryset(self):
-        queryset = TrackInAlbum.objects.all()
+        queryset: List[TrackInAlbum] = TrackInAlbum.objects.all()
         return queryset
 
     def get(self, request):
